@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+}
+/* .product-content .l-head{
+    font-size: 14px;
+    margin-top: 5%;
+} */
+
+.text{
+    margin-bottom: 10%;
+    padding-right: 30%;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+h3{
+    margin-bottom: 10%;
+}
+
+h2{
+    color: hsl(212, 21%, 14%);
+    margin: 10% 0;
+    /* padding-right: 15%; */
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    max-width: 32rem;
+    height: 25.25rem;
+    margin: 6% auto;
+    border-radius: 10px;
+}
+
+
+.product-image{
+    width: 50%;
+    height: 100%; 
+    
+}
+.product-image img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.product-content{
+    width: 50%;
+    height: 100%;
+    padding:5%;
+    /* text-align: center; */
+    /* margin:15%  ; */
+}
+
+.t-button{
+    text-align: center;
+    font-size: 14px;
+}
+
+.t-button button{
+    width: 100%;
+    padding: 5%;
+    border: none;
+    background:hsl(212, 21%, 14%) ;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.t-button button .cart{
+    width: 10px;
+    margin-right: 8px;
+}
+
+.product-content .dollar{
+    color: hsl(228, 12%, 48%);
+}
+
+.product-content .dollar span{
+    font-size: 12px;
+    padding: 0 5px;
+    text-decoration: line-through;
+
+}
+
+@media(max-width: 500px){
+    .product{
+        display: block;
+        background: none;
+        /* max-width: 50rem; */
+        width: 200%;
+        /* min-height: 20.25rem; */
+        margin-left: 22%;
+    }
+
+    .product-image img{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius:0;
+        border-top-left-radius: 0;
+        
+    }
+
+    .product-content{
+        width: 50%;
+        height: 100%;
+        padding:5%;
+        background: #fff;
+    }
+}
